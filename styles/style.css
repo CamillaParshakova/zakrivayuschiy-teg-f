@@ -33,7 +33,7 @@
   max-inline-size: 696px;
 }
 
-.header_title {
+.page_title {
   display: grid;
   gap: 20px;
   text-align: center;
