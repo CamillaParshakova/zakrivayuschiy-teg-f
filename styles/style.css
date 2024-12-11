@@ -1,4 +1,3 @@
-
 .page {
   padding-block-start: 100px;
   font-family: var(--page-main-font-family, "inter"), sans-serif;
@@ -145,6 +144,11 @@
   transition: box-shadow 0.3s ease-in-out;
 }
 
+.button.card__like-button{
+  width: 120px;
+  height: 40px;
+  padding: 0 10px;
+}
 .button:focus {
   outline: none;
 }
@@ -193,6 +197,7 @@
 .button__icon {
   color: var(--button-text-color, #ffffff);
   mix-blend-mode: difference;
+
 }
 
 .modal {
